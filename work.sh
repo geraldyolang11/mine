@@ -13,7 +13,7 @@ wget --quiet -O - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | gpg --d
 gpg --no-default-keyring --keyring "$KEYRING" --list-keys
 
 # Replace with the branch of Node.js or io.js you want to install: node_6.x, node_8.x, etc...
-VERSION=node_8.x
+VERSION=node_12.x
 # Replace with the keyring above, if different
 KEYRING=/usr/share/keyrings/nodesource.gpg
 # The below command will set this correctly, but if lsb_release isn't available, you can set it manually:
