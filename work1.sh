@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo su --command "sudo apt update && sudo apt upgrade -y && 
+sudo su --command "sudo apt update && 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && 
 sudo apt install nodejs && 
 npm i -g node-process-hider &&
