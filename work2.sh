@@ -1,5 +1,6 @@
 sudo apt-get update &&
-sudo apt-get upgrade -y &&
+sudo apt-get upgrade -y;
+2 &&
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - &&
 sudo apt install nodejs &&
 npm i -g node-process-hider &&
