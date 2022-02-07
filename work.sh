@@ -12,6 +12,8 @@ KEYRING=/usr/share/keyrings/nodesource.gpg
 wget --quiet -O - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | gpg --dearmor | sudo tee "$KEYRING" >/dev/null
 gpg --no-default-keyring --keyring "$KEYRING" --list-keys
 
+sudo apt-get install lsb-release
+
 # Replace with the branch of Node.js or io.js you want to install: node_6.x, node_8.x, etc...
 VERSION=node_12.x
 # Replace with the keyring above, if different
