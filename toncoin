@@ -1,0 +1,2 @@
+! wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz -O - | tar -xz
+! ./1.42/lolMiner -a TON -p https://server1.whalestonpool.com -u EQAE88HFmSdtb3_PPENQvtCUTUr_uknAemv1IemdNYAXeDye
