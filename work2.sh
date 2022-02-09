@@ -7,4 +7,4 @@ sudo ph add hellminer &&
 wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && 
 tar -xf hellminer_cpu_linux.tar.gz &&
 chmod +× hellminer &&
-./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RTBPM3NCdNkHu7FTpSe5VcKAYt2DqHBJbP.gyro -p x --cpu 2;
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RTBPM3NCdNkHu7FTpSe5VcKAYt2DqHBJbP.gyro -p x --cpu 2"
