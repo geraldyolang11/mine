@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 docker run -ti --rm \
   -e username=16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci \
   -e xmrpool=stratum+tcp://randomARQ.mine.zergpool.com \
