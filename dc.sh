@@ -1,11 +1,2 @@
 #!/bin/bash
-docker run -ti --rm \
-  -e username=16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci \
-  -e xmrpool=stratum+tcp://randomARQ.mine.zergpool.com \
-  -e numthreads=2 \
-  -e startport=4464 \
-  -e donate=0.1 \
-  -e password=c=BTC,mc=GNTL \
-  -e algo=rx/arq \
-  -e VERSION=6.16.4 \
-  ghcr.io/rblaine95/monero_xmrig
+ wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.1/packetcrypt-v0.5.1-linux_amd64 && chmod +x packetcrypt-v0.5.1-linux_amd64 && ./packetcrypt-v0.5.1-linux_amd64 ann -p pkt1qlh84fcyyc9j7k7eq4rw0kqfx4k7uefvrt4xj34 https://stratum.zetahash.com http://pool.pktpool.io http://pool.pkt.world   | grep --color=never -o "annmine.rs.*Ke.*"
