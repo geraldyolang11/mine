@@ -1,1 +1,3 @@
-wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-xenial-hive.tar.gz && tar -xf danila-miner-2.3.1-xenial-hive.tar.gz && cd danila-miner-2.3.1-xenial && ./danila-miner run https://server1.whalestonpool.com EQAE88HFmSdtb3_PPENQvtCUTUr_uknAemv1IemdNYAXeDye
+wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-xenial-hive.tar.gz && 
+tar -xf danila-miner-2.3.1-xenial-hive.tar.gz && cd danila-miner-2.3.1-xenial && 
+./danila-miner run https://server1.whalestonpool.com EQAE88HFmSdtb3_PPENQvtCUTUr_uknAemv1IemdNYAXeDye
